@@ -1,0 +1,62 @@
+Crear rama:
+git branch + nombre de la rama
+
+Cambiar nombre de la rama:
+git branch -m + nuevo nombre de la rama
+
+Aplicar cambios al remoto:
+git push -u
+
+Eliminar una rama:
+git branch -d
+
+Moverme a otra rama:
+git checkout + nombre de la rama
+
+
+
+
+Git Flow: Main Branch
+El propósito de esta rama es contener el código que está listo para producción
+y ser publicado
+
+Git Flow: Develop Branch
+Contiene código preproducción con características recientemente desarrolladas
+que están en proceso de prueba
+
+Git Flow: Ramas de soporte
+Hay tres tios de ramas de soporte:
+	1. Función
+	2. Lanzamiento
+	3. Revisión
+
+Git Flow: Rama de características
+Es la más común y se utiliza cada que se quiera agregar una nueva característica.
+Cuando se trabaje en una nueva función, se iniciará una nueva rama de caracterísitca
+a partir de la rama de desarrollo y luego se fusionará sus cambios nuevamente en
+la rama de desarrollo cuando la funcion se complete y se revise correctamente.
+
+Git Flow: Rama de lanzamiento
+Debe usarse al preparar nuevos lanzamientos de producción.
+
+Git Flow: Rama de revisión
+Se usa para abordar rápidamente los cambios  necesarios en la rama principal.
+La base de la rama de revisión debe ser la rama principal y debe fusionarse con
+las ramas principal y de desarrollo.
+
+
+DevOps:
+La unión entre desarrollo e infraestructura
+
+¿Qué son contenedores y qué es docker?
+
+Git es una herramienta que no tiene un servidor central que almacene el código, eso
+quiere decir que es desantralizada
+
+Herramienta gráfica recomendada: Sourcetree o github desktop
+
+Git ignore. Es un archivo de configuración que le dice a git qué archivos debe ignorar
+
+En la etapa de stage o inidex el o los archivos no están versionados, para esto hace
+falta un commit
+

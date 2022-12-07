@@ -1,0 +1,21 @@
+Diferencias entre var y let
+
+Las variables con var se pueden modificar pero también se pueden
+volver a declarar, a diferencia de let que solo permite modificar
+y no volver a declar.
+
+Una variable declarada con let dentro de un bloque, solo tiene alcance
+en ese bloque.
+
+Y una variable declarada con var, tiene alcance global o función/local
+
+let nos soluciona un problema que se presenta con var y es que al
+var permitirnos declarar de nuevo una variable, no sabemos si ese
+nombre ya se está utilizando, por lo que podría terminar en muchos
+errores en nuestro código
+
+
+const
+
+const al igual que let tienen un ámbito de bloque, pero estas
+no permiten modificarse ni mucho menos volverse a declarar

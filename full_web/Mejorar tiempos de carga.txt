@@ -1,0 +1,27 @@
+Que en el css venga primero lo de la versióno móvil, es decir, lo responsivo
+
+Poner loading="lazy" como atributo a las imágenes(esto es que carguen hasta que sean visibles)
+
+Hacer un preload (cargan elementos necesarios o que se deben cargar lo pronto posible)
+Preload a una librería externa se usa crossorigin="crossorgin" 
+y si es fuente en as se le pone font y un atributo 
+También se puede hacer preload de una imagen que ya tengo con as="image" y en href va la direccion de la imagen
+
+prefetch carga la siguiente página que esperamos que el usuario visite:
+	<link rel="prefetch" href="nosotros.html" as="document"(dice que es un archivo html)>
+	Con google analitics podemos ver en qué página de mi sitio web las personas pasan más tiempo
+
+
+Cambiar el tipo de formato de las imágenes
+	El formato webp mantiene la misma calidad pero pesa menos
+	Si acepta webp lo pone y sino pone el jpg
+	<picture>
+		<source srcset="direccion de la imagen type="image/webp">
+		<img src="direccion de la imagen" loading="lazy" alt="texto alternativo">
+	</picture>(Soporta distintos formatos)
+Nota: No hacer un preload de la imagen si tengo varias formatos, modernizr librería de js que
+funciona como una especie de condicional y este me sirve para el css(cualquier cosa
+ver el header del blog de cafe)
+
+Agregar la etiqueta <meta name="description" content="De que trata la pagina">
+

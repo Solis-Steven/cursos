@@ -1,0 +1,26 @@
+Diferencias entre programacion declarativa e imperativa
+
+Optimizacion:
+	- La forma imperativa supone un mayor volumen de codigo,
+	ya que las instrucciones y estructuras utilizadas
+	quedan expuestas en su totalidad
+
+	- La forma declarativa resulta en codigo mas liviano
+	ya que esos procesos logicos se encuentran en capas inferiores
+
+Legibilidad:
+	- La forma imperativa es de baja legibilidad
+
+	- La forma declarativa es de alta carga lexica,
+	ya que en su nombre se refleja su funcionalidad
+
+Reusabilidad:
+	- La forma imperativa es necesaria duplicarla donde se requiera
+
+	- La forma declarativa nos permite reusar los multiples procesos
+	debido a esa encapsulacion de estos mismo
+
+Rendimiento:
+	- La forma imperativa sule mostrar un mejor rendimiento
+
+	- La forma declarativa incrementa el coste del proceso en su totalidad
